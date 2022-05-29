@@ -2,9 +2,9 @@ package transmatter.project.security.util;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import transmatter.project.security.entity.Authority;
-import transmatter.project.security.entity.JwtUser;
-import transmatter.project.security.entity.User;
+import transmatter.project.security.authentication.entity.Authority;
+import transmatter.project.security.authentication.entity.JwtUser;
+import transmatter.project.security.authentication.entity.User;
 
 import java.util.List;
 import java.util.stream.Collectors;

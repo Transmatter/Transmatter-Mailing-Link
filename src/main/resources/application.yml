@@ -13,6 +13,19 @@ spring:
   servlet:
     multipart:
       max-file-size: 10MB
+  mail:
+    username: tranmatter.team@gmail.com
+    password: Tmat@1739
+    host: smtp.gmail.com
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          ssl:
+            trust: smtp.gmail.com
+          auth: 'true'
 jwt:
   header: Authorization
   secret: mySecret

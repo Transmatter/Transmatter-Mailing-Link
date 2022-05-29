@@ -1,12 +1,12 @@
-package transmatter.project.security.service;
+package transmatter.project.security.authentication.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import transmatter.project.security.entity.User;
-import transmatter.project.security.repository.UserRepository;
+import transmatter.project.security.authentication.entity.User;
+import transmatter.project.security.authentication.repository.UserRepository;
 import transmatter.project.security.util.JwtUserFactory;
 
 /**

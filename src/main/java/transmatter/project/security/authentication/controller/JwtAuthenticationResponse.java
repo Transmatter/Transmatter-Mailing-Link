@@ -1,4 +1,4 @@
-package transmatter.project.security.controller;
+package transmatter.project.security.authentication.controller;
 
 import java.io.Serializable;
 

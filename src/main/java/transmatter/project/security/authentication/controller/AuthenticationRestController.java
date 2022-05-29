@@ -1,9 +1,9 @@
-package transmatter.project.security.controller;
+package transmatter.project.security.authentication.controller;
 
-import transmatter.project.security.entity.User;
-import transmatter.project.security.repository.AuthorityRepository;
-import transmatter.project.security.repository.UserRepository;
-import transmatter.project.security.service.UserService;
+import transmatter.project.security.authentication.entity.User;
+import transmatter.project.security.authentication.repository.AuthorityRepository;
+import transmatter.project.security.authentication.repository.UserRepository;
+import transmatter.project.security.authentication.service.UserService;
 import transmatter.project.security.util.JwtTokenUtil;
 import transmatter.project.security.util.TransmatterMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
-import transmatter.project.security.entity.JwtUser;
+import transmatter.project.security.authentication.entity.JwtUser;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;

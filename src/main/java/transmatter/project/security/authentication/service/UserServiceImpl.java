@@ -1,9 +1,9 @@
-package transmatter.project.security.service;
+package transmatter.project.security.authentication.service;
 
-import transmatter.project.security.controller.JwtAuthenticationRequest;
-import transmatter.project.security.dao.UserDao;
-import transmatter.project.security.entity.*;
-import transmatter.project.security.repository.AuthorityRepository;
+import transmatter.project.security.authentication.controller.JwtAuthenticationRequest;
+import transmatter.project.security.authentication.dao.UserDao;
+import transmatter.project.security.authentication.entity.*;
+import transmatter.project.security.authentication.repository.AuthorityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

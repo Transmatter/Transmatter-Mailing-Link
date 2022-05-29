@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mobile.device.Device;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
-import transmatter.project.security.entity.JwtUser;
+import transmatter.project.security.authentication.entity.JwtUser;
 
 import java.io.Serializable;
 import java.util.Date;

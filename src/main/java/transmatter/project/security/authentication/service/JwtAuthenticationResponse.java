@@ -1,4 +1,4 @@
-package transmatter.project.security.service;
+package transmatter.project.security.authentication.service;
 
 import java.io.Serializable;
 

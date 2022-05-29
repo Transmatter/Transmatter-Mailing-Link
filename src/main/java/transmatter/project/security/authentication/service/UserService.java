@@ -1,7 +1,7 @@
-package transmatter.project.security.service;
+package transmatter.project.security.authentication.service;
 
-import transmatter.project.security.controller.JwtAuthenticationRequest;
-import transmatter.project.security.entity.User;
+import transmatter.project.security.authentication.controller.JwtAuthenticationRequest;
+import transmatter.project.security.authentication.entity.User;
 
 import java.util.List;
 

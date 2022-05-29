@@ -1,8 +1,8 @@
-package transmatter.project.security.dao;
+package transmatter.project.security.authentication.dao;
 
-import transmatter.project.security.entity.User;
-import transmatter.project.security.repository.AuthorityRepository;
-import transmatter.project.security.repository.UserRepository;
+import transmatter.project.security.authentication.entity.User;
+import transmatter.project.security.authentication.repository.AuthorityRepository;
+import transmatter.project.security.authentication.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

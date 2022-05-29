@@ -1,7 +1,6 @@
-package transmatter.project.security.dao;
+package transmatter.project.security.authentication.dao;
 
-import transmatter.project.security.controller.JwtAuthenticationRequest;
-import transmatter.project.security.entity.User;
+import transmatter.project.security.authentication.entity.User;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

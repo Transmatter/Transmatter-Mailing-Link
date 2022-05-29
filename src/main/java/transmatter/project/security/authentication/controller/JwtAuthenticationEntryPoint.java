@@ -1,4 +1,4 @@
-package transmatter.project.security.controller;
+package transmatter.project.security.authentication.controller;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;

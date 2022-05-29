@@ -1,7 +1,6 @@
-package transmatter.project.security.entity;
+package transmatter.project.security.authentication.entity;
 
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
