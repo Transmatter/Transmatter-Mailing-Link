@@ -14,18 +14,18 @@ spring:
     multipart:
       max-file-size: 10MB
   mail:
-    username: tranmatter.team@gmail.com
+    username: transmatter.team@outlook.com
     password: Tmat@1739
-    host: smtp.gmail.com
+    host: smtp-mail.outlook.com
     protocol: smtp
     properties:
       mail:
         smtp:
           starttls:
-            enable: 'true'
+            enable: true
           ssl:
-            trust: smtp.gmail.com
-          auth: 'true'
+            trust: smtp-mail.outlook.com
+          auth: false
 jwt:
   header: Authorization
   secret: mySecret
