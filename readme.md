@@ -1,5 +1,26 @@
-# TP1 : Security Refactor
+# TP2 : Register by sendling register link via email
 
-Spine for all over the system
+## Workflow
 
-java code for JWT authentication
+1. trigger `/request-register`
+
+  require data
+  ```
+  email : String@doamin
+  ```
+
+3. trigger `localhost:3000/register`
+4. fill the require data
+ 
+require data
+
+```
+  user {
+    username : String
+    password : String
+    firstname : String
+    lastname : String
+    email : String
+    phone_no:String
+  }
+```
